@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.lokhande.selenium.test.homework.HomeworkMainTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.311 sec <<< FAILURE! - in com.lokhande.selenium.test.homework.HomeworkMainTest
+pricingPlanFeatureTest(com.lokhande.selenium.test.homework.HomeworkMainTest)  Time elapsed: 22.464 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<$[49.]99> but was:<$[]99>
+	at com.lokhande.selenium.test.homework.HomeworkMainTest.pricingPlanFeatureTest(HomeworkMainTest.java:165)
+

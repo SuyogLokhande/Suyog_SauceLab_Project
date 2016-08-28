@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" verbose="0" name="Failed suite [Surefire suite]" parallel="methods" data-provider-thread-count="2">
+  <test name="Surefire test">
+    <classes>
+      <class name="com.lokhande.selenium.test.homework.HomeworkMainTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)" parallel="methods">
+    <classes>
+      <class name="com.lokhande.selenium.test.homework.HomeworkMainTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="teardown"/>
+          <include name="pricingPlanFeatureTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.lokhande.selenium.test.homework.HomeworkMainTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

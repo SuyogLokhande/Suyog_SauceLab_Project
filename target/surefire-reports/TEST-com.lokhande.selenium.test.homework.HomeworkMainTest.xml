@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lokhande.selenium.test.homework.HomeworkMainTest" time="24.311" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Suyog\Eclipse Projects\Suyog_SauceLab_Project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Suyog\Eclipse Projects\Suyog_SauceLab_Project"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Suyog\Eclipse Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9168657210573532132.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_102/bin/client;C:/Program Files/Java/jre1.8.0_102/bin;C:/Program Files/Java/jre1.8.0_102/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\tools\QuickTime\QTSystem\;C:\Program Files\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\eclipse-jee-mars-2-win32\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="/C:/Program Files/eclipse-jee-mars-2-win32/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Suyog\Eclipse Projects\Suyog_SauceLab_Project\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="guineaPigLinkTest" classname="com.lokhande.selenium.test.homework.HomeworkMainTest" time="14.97"/>
+  <testcase name="guineaPigEmailTest" classname="com.lokhande.selenium.test.homework.HomeworkMainTest" time="16.809"/>
+  <testcase name="pricingPlanFeatureTest" classname="com.lokhande.selenium.test.homework.HomeworkMainTest" time="22.464">
+    <failure message="expected:&lt;$[49.]99&gt; but was:&lt;$[]99&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<$[49.]99> but was:<$[]99>
+	at com.lokhande.selenium.test.homework.HomeworkMainTest.pricingPlanFeatureTest(HomeworkMainTest.java:165)
+]]></failure>
+    <system-out><![CDATA[2016-08-28 16:23:37,995 [PoolService-0] INFO  homework.HomeworkMainTest  - 
+Running 'landingPageVerification' test case:
+2016-08-28 16:23:37,996 [PoolService-0] INFO  landingPage.LandingPage  - Verifying 'PRICING' is present on landing page
+2016-08-28 16:23:38,927 [PoolService-0] INFO  landingPage.LandingPage  - Clickig on Pricing
+2016-08-28 16:23:41,751 [PoolService-0] INFO  pricingDetails.PricingDetails  - Reading 'PRICING' for different plan:
+2016-08-28 16:23:41,941 [PoolService-0] INFO  pricingDetails.PricingDetails  - MANUAL
+2016-08-28 16:23:42,140 [PoolService-0] INFO  pricingDetails.PricingDetails  - INDIVIDUAL
+2016-08-28 16:23:42,289 [PoolService-0] INFO  pricingDetails.PricingDetails  - EXPERT
+2016-08-28 16:23:42,433 [PoolService-0] INFO  pricingDetails.PricingDetails  - PROFESSIONAL
+2016-08-28 16:23:42,582 [PoolService-0] INFO  pricingDetails.PricingDetails  - SMALL TEAM
+2016-08-28 16:23:42,713 [PoolService-0] INFO  pricingDetails.PricingDetails  - ENTERPRISE
+2016-08-28 16:23:42,956 [PoolService-0] INFO  pricingDetails.PricingDetails  - 19
+2016-08-28 16:23:43,097 [PoolService-0] INFO  pricingDetails.PricingDetails  - 99
+2016-08-28 16:23:43,231 [PoolService-0] INFO  pricingDetails.PricingDetails  - 199
+2016-08-28 16:23:43,389 [PoolService-0] INFO  pricingDetails.PricingDetails  - 299
+2016-08-28 16:23:43,524 [PoolService-0] INFO  pricingDetails.PricingDetails  - 399
+2016-08-28 16:23:43,590 [PoolService-0] INFO  pricingDetails.PricingDetails  - {MANUAL=19, INDIVIDUAL=99, EXPERT=199, PROFESSIONAL=299, SMALL TEAM=399}
+2016-08-28 16:23:43,590 [PoolService-0] INFO  homework.HomeworkMainTest  - Cost for "Individual" membership is: $99
+]]></system-out>
+  </testcase>
+</testsuite>
