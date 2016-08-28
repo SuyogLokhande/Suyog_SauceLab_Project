@@ -1,8 +1,7 @@
 # Suyog_SauceLab_Project
 Requirements:
-Part 1
 Write some test cases against saucelabs.com using Sauce Labs. (Sign up for a free trial)
-1. Clicking Pricing -> Verify indiviual plan is present and costs $49.99
+1. Clicking Pricing -> Verify indiviual plan is present and costs $49.99\n
 2. Go to guinea pig page (https://saucelabs.com/test/guinea-pig) -> check first box -> and fill out email field
 3. Add another test case to guineapig.feature. It should click the "i am a link"
 4. "Parallelize" the framework.
